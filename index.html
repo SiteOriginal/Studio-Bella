@@ -3,73 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maison Beauty</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Salão Premium</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">Maison Beauty</div>
-        <nav>
-            <a href="#sobre">Sobre</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#galeria">Galeria</a>
-            <a href="#contato" class="nav-btn">Agendar</a>
-        </nav>
-    </header>
+<!-- Header -->
+<header>
+    <div class="logo">SALÃO PREMIUM</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Serviços</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contato</a>
+    </nav>
+</header>
 
-    <section class="hero">
-        <div class="overlay"></div>
-        <div class="hero-content">
-            <h1>Beleza que impõe presença</h1>
-            <p>Experiência premium em cabelo e maquiagem.</p>
-            <a href="https://wa.me/5511999999999" class="btn">Agendar pelo WhatsApp</a>
+<!-- Hero -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Beleza e Estilo de Alto Nível</h1>
+        <p>Transforme seu visual com nossos profissionais experientes</p>
+        <a href="https://wa.me/5516999999999" class="btn">
+            <i class="fa-brands fa-whatsapp"></i> Agende pelo WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- Serviços -->
+<section id="services" class="services bg-light">
+    <h2>Nossos Serviços</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36" alt="Corte de cabelo">
+            <h3>Corte de cabelo</h3>
+            <p>Cortes modernos ou clássicos, feitos por profissionais.</p>
         </div>
-    </section>
-
-    <section id="sobre">
-        <h2>Sobre o Salão</h2>
-        <p>Especialistas em realçar sua identidade com técnica, sofisticação e atendimento exclusivo.</p>
-    </section>
-
-    <section id="servicos" class="bg-light">
-        <h2>Serviços</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Corte & Styling</h3>
-                <p>Técnicas personalizadas para cada formato de rosto.</p>
-            </div>
-            <div class="card">
-                <h3>Coloração</h3>
-                <p>Loiros perfeitos, morenos iluminados e transformações completas.</p>
-            </div>
-            <div class="card">
-                <h3>Maquiagem</h3>
-                <p>Produções para eventos, noivas e ocasiões especiais.</p>
-            </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1590080879685-6ec6c9d36c5e" alt="Coloração">
+            <h3>Coloração</h3>
+            <p>Tratamentos de cor e mechas que destacam seu estilo.</p>
         </div>
-    </section>
-
-    <section id="galeria">
-        <h2>Galeria</h2>
-        <div class="gallery-grid">
-            <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250" alt="Mulher fazendo cabelo no salão">
-            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" alt="Maquiagem no salão">
-            <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948" alt="Coloração no salão">
-            <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8" alt="Cabelo sendo estilizado">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1617109161948-6b8f3a2a2c71" alt="Tratamento capilar">
+            <h3>Tratamentos Capilares</h3>
+            <p>Cuidado completo para saúde e brilho dos seus cabelos.</p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="contato" class="cta">
-        <h2>Agende seu horário</h2>
-        <a href="https://wa.me/5511999999999" class="btn-dark">Falar no WhatsApp</a>
-    </section>
+<!-- Galeria -->
+<section id="gallery" class="gallery">
+    <h2>Galeria</h2>
+    <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1600185360855-6bbf8c6c1dc1" alt="Foto 1">
+        <img src="https://images.unsplash.com/photo-1592906203580-d6b1c2f63150" alt="Foto 2">
+        <img src="https://images.unsplash.com/photo-1613346269401-3e8f93d2d5c8" alt="Foto 3">
+        <img src="https://images.unsplash.com/photo-1588776814546-33eb07a77a46" alt="Foto 4">
+    </div>
+</section>
 
-    <footer>
-        © 2026 Maison Beauty
-    </footer>
+<!-- Sobre -->
+<section id="about" class="about bg-light">
+    <h2>Sobre Nós</h2>
+    <p>Com mais de 10 anos de experiência, nosso salão oferece atendimento premium, ambiente moderno e cuidado personalizado para cada cliente.</p>
+</section>
+
+<!-- Contato -->
+<section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>Endereço: Rua Exemplo, 123 - Ribeirão Preto, SP</p>
+    <p>Horário: 9:00 às 20:00</p>
+    <p>WhatsApp: <a href="https://wa.me/5516999999999">55 16 99999-9999</a></p>
+    <iframe src="https://www.google.com/maps?q=Ribeirão+Preto&output=embed" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Salão Premium. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>
